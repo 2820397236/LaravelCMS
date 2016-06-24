@@ -47,7 +47,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Bootstrap CMS'),
+    'name' => env('APP_NAME', '艾杰翻译'),
 
     /*
     |--------------------------------------------------------------------------
@@ -99,7 +99,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY', 'SomeRandomString'),
+    'key' => env('APP_KEY', 'DdYgl9oIeX6njGieKSk1yvsyiSmIStrA'),
 
     'cipher' => 'AES-256-CBC',
 

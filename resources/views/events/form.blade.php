@@ -4,7 +4,7 @@
     <input type="hidden" name="_method" value="{{ isset($form['_method'])? $form['_method'] : $form['method'] }}">
 
     <div class="form-group{!! ($errors->has('title')) ? ' has-error' : '' !!}">
-        <label class="col-md-2 col-sm-3 col-xs-10 control-label" for="title">Event Title</label>
+        <label class="col-md-2 col-sm-3 col-xs-10 control-label" for="title">活动标题</label>
         <div class="col-lg-3 col-md-4 col-sm-5 col-xs-10">
             <input name="title" value="{!! Request::old('title', $form['defaults']['title']) !!}" type="text" class="form-control" placeholder="Event Title">
             {!! ($errors->has('title') ? $errors->first('title') : '') !!}
@@ -12,7 +12,7 @@
     </div>
 
     <div class="form-group{!! ($errors->has('location')) ? ' has-error' : '' !!}">
-        <label class="col-md-2 col-sm-3 col-xs-10 control-label" for="location">Event Location</label>
+        <label class="col-md-2 col-sm-3 col-xs-10 control-label" for="location">活动区域</label>
         <div class="col-lg-3 col-md-4 col-sm-5 col-xs-10">
             <input name="location" value="{!! Request::old('location', $form['defaults']['location']) !!}" type="text" class="form-control" placeholder="Event Location">
             {!! ($errors->has('location') ? $errors->first('location') : '') !!}
@@ -20,7 +20,7 @@
     </div>
 
     <div class="form-group{!! ($errors->has('date')) ? ' has-error' : '' !!}">
-        <label class="col-md-2 col-sm-3 col-xs-10 control-label" for="date">Event Date</label>
+        <label class="col-md-2 col-sm-3 col-xs-10 control-label" for="date">截止时间</label>
         <div class="col-lg-3 col-md-4 col-sm-5 col-xs-10">
             <div class="input-group date" id="datetimepicker1">
                 <input name="date" value="{!! Request::old('date', $form['defaults']['date']) !!}" type='text' class="form-control" placeholder="Event Date">
@@ -31,7 +31,7 @@
     </div>
 
     <div class="form-group{!! ($errors->has('body')) ? ' has-error' : '' !!}">
-        <label class="col-md-2 col-sm-3 col-xs-10 control-label" for="body">Event Body</label>
+        <label class="col-md-2 col-sm-3 col-xs-10 control-label" for="body">活动内容</label>
         <div class="col-lg-6 col-md-8 col-sm-9 col-xs-12">
             <textarea name="body" type="text" class="form-control" data-provide="markdown" placeholder="Event Body" rows="10">{!! Request::old('body', $form['defaults']['body']) !!}</textarea>
             {!! ($errors->has('body') ? $errors->first('body') : '') !!}
