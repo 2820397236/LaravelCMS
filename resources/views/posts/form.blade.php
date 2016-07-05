@@ -23,6 +23,7 @@
         <label class="col-md-2 col-sm-3 col-xs-10 control-label" for="body">Post Body</label>
         <div class="col-lg-6 col-md-8 col-sm-9 col-xs-12">
             <textarea name="body" type="text" class="form-control" data-provide="markdown" placeholder="Post Body" rows="10">{!! Request::old('body', $form['defaults']['body']) !!}</textarea>
+            <div id="summernote">{!! Request::old('body', $form['defaults']['body']) !!}</div>
             {!! ($errors->has('body') ? $errors->first('body') : '') !!}
         </div>
     </div>

@@ -5,19 +5,19 @@
         <div class="row">
             <div class="col-xs-8">
                 <p class="text-muted credit">
-                    &copy; <a href="https://github.com/GrahamCampbell">{{ Config::get('cms.author') }}</a> 2015. All rights reserved.
+                    &copy; <a href="javascript:;">{{ Config::get('cms.author') }}</a> 2016. All rights reserved.
                 </p>
             </div>
             <div class="col-xs-4">
                 <p class="text-muted credit pull-right">
-                    Generated in {{ round((microtime(1) - LARAVEL_START), 4) }} sec.
+                    用时 {{ round((microtime(1) - LARAVEL_START), 4) }} 秒.
                 </p>
             </div>
         </div>
     </div>
     <div class="container visible-xs">
         <p class="text-muted credit">
-            &copy; <a href="https://github.com/GrahamCampbell">{{ Config::get('cms.author') }}</a> 2015. All rights reserved.
+            &copy; <a href="javascript:;">{{ Config::get('cms.author') }}</a> 2016. All rights reserved.
         </p>
     </div>
 </div>

@@ -62,6 +62,6 @@ return [
     |
     */
 
-    'php_display_format' => 'l jS F Y H:i',
+    'php_display_format' => 'Y年m月d日 H:i',
 
 ];
