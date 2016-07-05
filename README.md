@@ -1,3 +1,4 @@
+Fork from [Laravel Credentials](https://github.com/BootstrapCMS/Credentials)
 Bootstrap CMS
 =============
 
