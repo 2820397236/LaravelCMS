@@ -3,4 +3,4 @@
 phpunit.xml
 vendor
 node_modules
-config/database.php
+config
