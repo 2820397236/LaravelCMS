@@ -1,3 +1,4 @@
+ADD iseed plugin: php artisan iseed pages
 Fork from [Laravel Credentials](https://github.com/BootstrapCMS/Credentials)
 Bootstrap CMS
 =============
