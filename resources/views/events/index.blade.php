@@ -6,7 +6,7 @@ Events
 
 @section('top')
 <div class="page-header">
-<h1>最新活动</h1>
+<h1>优惠活动</h1>
 </div>
 @stop
 

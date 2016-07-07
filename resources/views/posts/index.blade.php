@@ -6,7 +6,7 @@ Blog
 
 @section('top')
 <div class="page-header">
-<h1>案例</h1>
+<h1>成功案例</h1>
 </div>
 @stop
 

@@ -6,7 +6,7 @@ Edit {{ $event->title }}
 
 @section('top')
 <div class="page-header">
-<h1>Edit {{ $event->title }}</h1>
+<h1>正在编辑： {{ $event->title }}</h1>
 </div>
 @stop
 
@@ -14,7 +14,7 @@ Edit {{ $event->title }}
 <div class="row">
     <div class="col-xs-6">
         <p class="lead">
-            Please edit the event:
+           请编辑以下活动:
         </p>
     </div>
     <div class="col-xs-6">
