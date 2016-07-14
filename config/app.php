@@ -22,7 +22,7 @@ return [
     |
     */
 
-    'debug' => env('APP_DEBUG', false),
+    'debug' => env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -73,7 +73,7 @@ return [
     |
     */
 
-    'locale' => env('APP_LOCALE', 'en'),
+    'locale' => env('APP_LOCALE', 'zh-CN'),
 
     /*
     |--------------------------------------------------------------------------
@@ -86,7 +86,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+    'fallback_locale' => 'zh-CN',
 
     /*
     |--------------------------------------------------------------------------
@@ -170,7 +170,8 @@ return [
         'GrahamCampbell\LogViewer\LogViewerServiceProvider',
         'GrahamCampbell\BootstrapCMS\Providers\AppServiceProvider',
         'GrahamCampbell\BootstrapCMS\Providers\RouteServiceProvider',
-	'Orangehill\Iseed\IseedServiceProvider',
+	    'Orangehill\Iseed\IseedServiceProvider',
+        'Stevenyangecho\UEditor\UEditorServiceProvider',
     ],
 
     /*

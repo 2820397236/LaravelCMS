@@ -129,7 +129,7 @@ class PostController extends AbstractController
      */
     public function update($id)
     {
-        $input = Binput::only(['title', 'summary', 'body']);
+        $input = Binput::only(['title', 'summary', 'body'],false,false);
 
         $val = PostRepository::validate($input, array_keys($input));
         if ($val->fails()) {

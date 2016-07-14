@@ -6,7 +6,7 @@ Create Post
 
 @section('top')
 <div class="page-header">
-<h1>Create Post</h1>
+<h1>创建新日志</h1>
 </div>
 @stop
 
@@ -14,14 +14,15 @@ Create Post
 <div class="well">
     <?php
     $form = ['url' => URL::route('blog.posts.store'),
-        'method' => 'POST',
-        'button' => 'Create New Post',
+        'method' => 'GET',
+        'button' => '创建日志',
         'defaults' => [
             'title' => '',
             'summary' => '',
             'body' => '',
     ], ];
     ?>
+
     @include('posts.form')
 </div>
 @stop
