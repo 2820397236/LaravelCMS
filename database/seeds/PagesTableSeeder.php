@@ -66,26 +66,26 @@ class PagesTableSeeder extends Seeder
 <!-- Wrapper for slides -->
 <div class="carousel-inner">
 <div class="item active">
-<div class="fill" style="background-image:url(\'http://139.162.5.106/assets/styles/7.jpg \');"></div>
+<div class="fill" style="background-image:url(\'http://139.162.5.106/upload/logo/新泽西-商务宴请陪同翻译.png \');"></div>
 <div class="carousel-caption">
-<h2>新泽西,商务宴请陪同翻译</h2>
+<h2>新泽西-商务宴请陪同翻译</h2>
 </div>
 </div>
 <div class="item">
-<div class="fill" style="background-image:url(\'http://139.162.5.106/assets/styles/1.jpg\');"></div>
+<div class="fill" style="background-image:url(\'http://139.162.5.106/upload/logo/纽约-商务翻译导游陪同.png\');"></div>
 <div class="carousel-caption">
-<h2>纽约,商务翻译陪同导游</h2>
+<h2>纽约-商务翻译导游陪同</h2>
 </div>
 </div>
 <div class="item">
-<div class="fill" style="background-image:url(\'http://139.162.5.106/assets/styles/3.jpg\');"></div>
+<div class="fill" style="background-image:url(\'http://139.162.5.106/upload/logo/投资移民-和购买酒庄的客户共餐.png\');"></div>
 <div class="carousel-caption">
-<h2>投资移民,和购买酒庄的客户共餐</h2>
+<h2>投资移民-和购买酒庄的客户共餐</h2>
 </div>
 </div>
 
 <div class="item">
-<div class="fill" style="background-image:url(\'http://139.162.5.106/assets/styles/2.jpg\');"></div>
+<div class="fill" style="background-image:url(\'http://139.162.5.106/upload/logo/合同谈判与会议同声翻译.png \');"></div>
 <div class="carousel-caption">
 <h2>合同谈判与会议同声翻译</h2>
 </div>
@@ -114,7 +114,7 @@ class PagesTableSeeder extends Seeder
 <div class="col-md-4 col-sm-6 col-xs-12">
 <h3>成功案例</h3>
 <p>
-<img width="100%" src="http://139.162.5.106/assets/styles/1.jpg"/>
+<img width="100%" src="http://139.162.5.106/upload/logo/投资移民-和购买酒庄的客户共餐.png"/>
 </p>
 <p>
 <a class="btn" href="<?php echo URL::route("blog.posts.index"); ?>">查看更多 »</a>
@@ -143,7 +143,7 @@ class PagesTableSeeder extends Seeder
                 'css' => '<link rel="stylesheet" type="text/css" href="http://blackrockdigital.github.io/startbootstrap-modern-business/css/modern-business.css">',
                 'js' => '<script>
 $(\'.carousel\').carousel({
-interval: 5000 //changes the speed
+interval: 8000 //changes the speed
 })
 </script>',
             'show_title' => '0',
@@ -151,7 +151,7 @@ interval: 5000 //changes the speed
             'icon' => 'home',
             'user_id' => '1',
             'created_at' => '2016-07-06 16:22:50',
-            'updated_at' => '2016-07-06 16:22:50',
+            'updated_at' => '2016-07-15 16:44:00',
             'deleted_at' => NULL,
         ),
         1 => 
