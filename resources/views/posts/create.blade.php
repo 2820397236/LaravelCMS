@@ -14,7 +14,7 @@ Create Post
 <div class="well">
     <?php
     $form = ['url' => URL::route('blog.posts.store'),
-        'method' => 'GET',
+        'method' => 'POST',
         'button' => '创建日志',
         'defaults' => [
             'title' => '',
