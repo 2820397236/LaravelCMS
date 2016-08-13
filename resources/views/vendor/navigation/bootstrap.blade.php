@@ -20,6 +20,10 @@
                     @endforeach
                 </ul>
             </div>
+            <script src="http://ajforyou.com/seller/js/qqloginsdk-0.1.js"></script>
+            <script>
+            
+            </script>
             <div id="bar-nav">
                 <ul class="nav navbar-nav navbar-right">
                     @if ($bar)
@@ -45,9 +49,12 @@
                         </li>
                     @else
                         <li {!! (Request::is('account/login') ? 'class="active"' : '') !!}>
-                            <a href="{!! URL::route('account.login') !!}">
+                            <!-- <a href="{!! URL::route('account.login') !!}">
                                 登陆
-                            </a>
+                            </a> -->
+                           <a href="javascript:qqlogin();">
+                                登陆
+                            </a> 
                         </li>
                         @if (Config::get('credentials.regallowed'))
                             <li {!! (Request::is('account/register') ? 'class="active"' : '') !!}>
