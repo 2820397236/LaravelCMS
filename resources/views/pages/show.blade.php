@@ -67,6 +67,8 @@
 {!! $page->css !!}
 @stop
 
+
 @section('js')
 {!! $page->js !!}
 @stop
+

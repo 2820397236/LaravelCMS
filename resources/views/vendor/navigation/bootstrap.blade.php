@@ -49,12 +49,12 @@
                         </li>
                     @else
                         <li {!! (Request::is('account/login') ? 'class="active"' : '') !!}>
-                            <!-- <a href="{!! URL::route('account.login') !!}">
+                            <a href="{!! URL::route('account.login') !!}">
                                 登陆
-                            </a> -->
-                           <a href="javascript:qqlogin();">
+                            </a>
+                           <!--<a href="javascript:qqlogin();">
                                 登陆
-                            </a> 
+                            </a>--> 
                         </li>
                         @if (Config::get('credentials.regallowed'))
                             <li {!! (Request::is('account/register') ? 'class="active"' : '') !!}>

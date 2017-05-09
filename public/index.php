@@ -1,3 +1,16 @@
+<?php 
+$the_host = $_SERVER['HTTP_HOST'];//取得进入所输入的域名 
+
+$request_uri = isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '';//判断后面的请求部分 
+
+//var_dump($the_host,$request_uri);
+if($the_host !== 'www.ajforyou.com')//jb51.net是我现在的域名 
+{ 
+header('HTTP/1.1 301 Moved Permanently');//发出301头部 
+header('Location: http://www.ajforyou.com'.$request_uri);//跳转到我的新域名地址 
+die(); 
+} 
+?> 
 <?php
 
 /*

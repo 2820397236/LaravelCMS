@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-xs-8">
                 <p class="text-muted credit">
-                    &copy; <a href="javascript:;">{{ Config::get('cms.author') }}</a> 2016. All rights reserved.
+                    &copy; <a href="javascript:;">{{ Config::get('cms.author') }}</a> 2016-2017. All rights reserved.
                 </p>
             </div>
             <div class="col-xs-4">
@@ -17,7 +17,7 @@
     </div>
     <div class="container visible-xs">
         <p class="text-muted credit">
-            &copy; <a href="javascript:;">{{ Config::get('cms.author') }}</a> 2016. All rights reserved.
+            &copy; <a href="javascript:;">{{ Config::get('cms.author') }}</a> 2016-2017. All rights reserved.
         </p>
     </div>
 </div>
@@ -27,8 +27,8 @@
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="{{ asset('assets/scripts/cms-main.js') }}"></script>
 
-<!--@section('js')
+@section('js')
 @show
 @if (Config::get('analytics.google'))
     @include('partials.analytics')
-@endif-->
+@endif

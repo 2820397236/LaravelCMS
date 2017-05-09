@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "886505f43e4fa52e54f4e769e79761ba",
+    "hash": "051ac6c837613cc4bfd3e5ac82c679ce",
     "content-hash": "e60a3850bfa24722b142d86e6f07da69",
     "packages": [
         {
@@ -1492,16 +1492,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.24",
+            "version": "1.0.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "9aca859a303fdca30370f42b8c611d9cf0dedf4b"
+                "reference": "a76afa4035931be0c78ca8efc6abf3902362f437"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/9aca859a303fdca30370f42b8c611d9cf0dedf4b",
-                "reference": "9aca859a303fdca30370f42b8c611d9cf0dedf4b",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/a76afa4035931be0c78ca8efc6abf3902362f437",
+                "reference": "a76afa4035931be0c78ca8efc6abf3902362f437",
                 "shasum": ""
             },
             "require": {
@@ -1514,7 +1514,7 @@
                 "ext-fileinfo": "*",
                 "mockery/mockery": "~0.9",
                 "phpspec/phpspec": "^2.2",
-                "phpunit/phpunit": "~4.8 || ~5.0"
+                "phpunit/phpunit": "~4.8"
             },
             "suggest": {
                 "ext-fileinfo": "Required for MimeType",
@@ -1571,7 +1571,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2016-06-03 19:11:39"
+            "time": "2016-07-18 12:22:57"
         },
         {
             "name": "mccool/laravel-auto-presenter",
@@ -2107,16 +2107,16 @@
         },
         {
             "name": "qiniu/php-sdk",
-            "version": "v7.0.7",
+            "version": "v7.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/qiniu/php-sdk.git",
-                "reference": "50e3375a7044d5f94de9570ce5966c1b6174bda3"
+                "reference": "d1bca450b56d85beb7ba21f374a47bfeb59c288b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/qiniu/php-sdk/zipball/50e3375a7044d5f94de9570ce5966c1b6174bda3",
-                "reference": "50e3375a7044d5f94de9570ce5966c1b6174bda3",
+                "url": "https://api.github.com/repos/qiniu/php-sdk/zipball/d1bca450b56d85beb7ba21f374a47bfeb59c288b",
+                "reference": "d1bca450b56d85beb7ba21f374a47bfeb59c288b",
                 "shasum": ""
             },
             "require": {
@@ -2154,7 +2154,7 @@
                 "sdk",
                 "storage"
             ],
-            "time": "2016-01-11 13:20:52"
+            "time": "2016-07-19 06:18:08"
         },
         {
             "name": "stevenyangecho/laravel-u-editor",
